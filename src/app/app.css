@@ -1,2 +1,11 @@
 .attribution { font-size: 0.6875rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+:host{
+  height: 100vh;
+}
+
+#top-image img{
+  width: 100%;
+}
+
