@@ -2,7 +2,7 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 :host{
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #top-image img{
