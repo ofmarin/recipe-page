@@ -1,0 +1,30 @@
+section{
+  margin-top:32px;
+}
+#ingredients{
+  color: rgb(133,70,50);
+  font-family: "Young-Serif";
+  font-weight: 400;
+  font-size:28px;
+  margin-bottom:24px;
+}
+
+
+#ingredient-list{
+  display:flex;
+  flex-direction:column;
+  gap: 8px;
+  padding-left:18px;
+}
+
+#ingredient-list li{
+  font-family: "Outfit",serif;
+  font-weight: 400;
+  color:#5F564D;
+  padding-left:40px
+}
+
+li::marker{
+  color: #854632;
+  font-size:12px;
+}

@@ -1,0 +1,36 @@
+#prep{
+  background-color: #FFF7FB;
+  padding:24px;
+  margin-top:32px;
+}
+h3 {
+  color:#7A284E;
+  font-size: 20px;
+  font-family: "Outfit", serif;
+  font-weight: 600;
+  margin-bottom:16px;
+}
+ul{
+  padding-left: 18px
+}
+li{
+  padding-left: 28px;
+  margin: 8px 0;
+  font-family: "Outfit",serif;
+  font-weight:400;
+  font-size: 16px;
+  color:#5F564D;
+}
+li::before{
+  left: 0;
+}
+li::marker {
+  font-size:12px;
+  color:#7A284E;
+}
+
+strong{
+  color:#5F564D;
+  font-family: "Outfit",serif;
+  font-weight: 600;
+}
