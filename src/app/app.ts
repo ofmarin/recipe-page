@@ -15,5 +15,6 @@ import {Ingredients} from './ingredients/ingredients';
 })
 export class App {
   omelette = './images/image-omelette.jpeg';
+  attribution= "https://www.frontendmentor.io/profile/ofmarin";
   protected readonly title = signal('recipe-page');
 }
