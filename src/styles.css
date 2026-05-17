@@ -30,3 +30,7 @@
   font-weight: 700;
   font-style:normal;
 }
+
+:root{
+  --stone-100:#F3E5D7;
+}

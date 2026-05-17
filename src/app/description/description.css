@@ -6,8 +6,6 @@ div{
   display:flex;
   flex-direction: column;
   gap: 24px;
-  margin-top:40px;
-
 }
 #title{
   font-family: Young-Serif,serif;

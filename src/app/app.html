@@ -1,18 +1,20 @@
-<figure id="top-image">
-  <img [src]="omelette" alt=" OMELETTE">
-</figure>
+<main id="body">
+  <div id="card">
+  <figure id="top-image">
+    <img [src]="omelette" alt=" OMELETTE">
+  </figure>
 
-<main>
+  <div id="text-content">
 <app-description></app-description>
 <app-prep-time></app-prep-time>
   <app-ingredients></app-ingredients>
 <app-instructions></app-instructions>
 <app-nutrition></app-nutrition>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a [href]="attribution">ofmarin</a>.
+    </footer>
+  </div>
+  </div>
 </main>
-
-<footer class="attribution">
-  Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-  Coded by <a [href]="attribution">ofmarin</a>.
-</footer>
-
-<router-outlet />
+<router-outlet/>
